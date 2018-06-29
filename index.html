@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Project 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">    
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+    <script src="assets/javascript/app.js"></script>
+</head>
+<body>
+    <header>
+        <h1>rock.paper.scissors</h1>
+    </header>
+    <div class="scoreBoard">
+        <div id="player1" class="badge">Player1</div>
+        <div id="player2" class="badge">Player2</div>
+        <span id="player1Score">0</span>:<span id="player2Score">0</span>
+    </div>
+
+    <div class="results">
+        <p id="message">Paper covers rock. You win!</p>
+    </div>
+
+    <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                    <button id="title1">Player 1</button>
+                    <div id="player1Choices" class="choices">
+                            <div class="blah">
+                                <img class="choice1" src="assets/images/rock.jpg" alt="rock" value="rock">
+                            </div>
+                            <div class="blah">
+                                <img class="choice1" src="assets/images/paper.jpg" alt="paper" value="paper">
+                            </div>
+                            <div class="blah">
+                                <img class="choice1" src="assets/images/scissors.jpg" alt="scissors" value="scissors">
+                            </div>
+                    </div>
+              </div>
+              <div class="col-lg-6">
+                    <button id="title2">Player 2</button>
+                    <div id="player2Choices" class="choices">
+                            <div class="blah">
+                                <img class="choice2" src="assets/images/rock.jpg" alt="rock" value="rock">
+                            </div>
+                            <div class="blah">
+                                <img class="choice2" src="assets/images/paper.jpg" alt="paper" value="paper">
+                            </div>
+                            <div class="blah">
+                                <img class="choice2" src="assets/images/scissors.jpg" alt="scissors" value="scissors">
+                            </div>
+                    </div>
+              </div>
+              <p id="action">Choose a player1 or 2. Player 1 goes first. To reset score click player buttons.</p>
+
+            </div>
+    </div>
+<!-- <form>
+    <input type="text" id="name-input" placeholder="Enter Name">
+    <input type="submit" id="user" value="name">
+</form> -->
+
+
+</body>
+</html> 
